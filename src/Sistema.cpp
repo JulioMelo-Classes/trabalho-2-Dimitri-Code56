@@ -120,7 +120,7 @@ string Sistema::create_channel(int id, const string nome) {
 string Sistema::remove_channel(int id, const string nome) {
 	return "remove_channel NÃO IMPLEMENTADO";
 }
-
+//checkin 4.1 50%
 string Sistema::enter_channel(int id, const string nome) {
 	return "enter_channel NÃO IMPLEMENTADO";
 }
@@ -129,6 +129,7 @@ string Sistema::leave_channel(int id) {
 	return "leave_channel NÃO IMPLEMENTADO";
 }
 
+//checkin 4.3 50%
 string Sistema::send_message(int id, const string mensagem) {
 	return "send_message NÃO IMPLEMENTADO";
 }
